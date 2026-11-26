@@ -7,7 +7,7 @@ from industry_data import INDUSTRY_AVG, METRICS
 from parsers import (ACCOUNTS, STATEMENTS, classify_sheet, detect_report_type, extract_from_excel,
                      extract_from_pdf, block_to_df, format_df, parse_excel, parse_pdf, sheet_label, sort_sheets)
 
-st.set_page_config(page_title="사업보고서 분석기", layout="wide")
+st.set_page_config(page_title="RatioBR", layout="wide")
 
 
 @st.cache_data
