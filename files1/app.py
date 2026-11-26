@@ -190,7 +190,7 @@ with st.sidebar:
     st.link_button("DART 전자공시", "https://dart.fss.or.kr")
     st.link_button("DART 상세검색", "https://dart.fss.or.kr/dsab007/main.do")
 
-st.title("사업보고서 분석기")
+st.title("RatioBR")
 
 annual_tab, quarter_tab = st.tabs(["사업보고서", "분기보고서"])
 with annual_tab:
